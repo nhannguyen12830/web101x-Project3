@@ -1,0 +1,88 @@
+/*MOBILE - CSS apply on width 768px */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+/*MENU*/
+
+#menu {
+    background-color: #556270;
+}
+
+#menu ul { 
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul li {
+    width: 20%;
+    display: inline;   
+}
+
+#menu a {
+    color: rgba(255, 255, 255, 0.767);
+}
+
+/*BANNER*/
+.banner-image {
+    padding: 4vw;
+}
+
+.banner-text h1 {
+    font-family: sans-serif;
+    color: black;
+}
+
+.banner-text p {
+    color: #556270;
+    padding-bottom: 5vw;
+    border-bottom: #556270 solid;
+}
+
+/*CONTENT*/
+#content {
+    background-color: white;
+    padding-left: 4vw;
+}
+
+section {
+    font-family: sans-serif;
+}
+
+section h2{
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+section p {
+    color: #556270;
+    padding-bottom: 5vw;
+}
+
+.column_image {
+    width: 100%;
+    height: 100%;
+}
+
+/* Định dạng phần Footer */
+footer { 
+
+    
+    padding-left: 4vw;
+    padding-bottom: 15px;
+}
+
+.column_footer {
+    float: left;
+    height: 68%;
+}
+
+footer a:visited {
+        color: rgb(27, 190, 231);
+}
+
+
+

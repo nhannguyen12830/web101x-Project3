@@ -1,0 +1,114 @@
+/*DESKTOP - CSS apply on width 992px */
+
+.col-dskt-1 {width: 8.33%;}
+.col-dskt-2 {width: 16.66%;}
+.col-dskt-3 {width: 25%;}
+.col-dskt-4 {width: 33.33%;}
+.col-dskt-5 {width: 41.66%;}
+.col-dskt-6 {width: 50%;}
+.col-dskt-7 {width: 58.33%;}
+.col-dskt-8 {width: 66.66%;}
+.col-dskt-9 {width: 75%;}
+.col-dskt-10 {width: 83.33%;}
+.col-dskt-11 {width: 91.66%;}
+.col-dskt-12 {width: 100%;}
+
+.menu-left {
+    padding-right: 3vw;
+    float:left;
+}
+
+.menu-right {
+    padding-left: 3vw;
+    float:right;
+}
+
+#menu {
+    background-color: #ffffff;
+}
+
+#menu a {
+    color: #585858;
+}
+
+/*BANNER*/
+
+.banner-image{
+    overflow: hidden;
+    height: 300px;
+    background-image:url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text{
+    text-align: left;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+.banner-text h1 {
+    font-family: serif;
+    color: white;
+    margin-bottom: 0;
+}
+
+.banner-text p {
+    color: white;
+}
+
+/*CONTENT*/
+#content {
+    background-color: rgb(235, 235, 235);
+    border-bottom: rgb(218, 218, 218) solid;
+    padding-left: 50px;
+    padding-bottom:16px;
+}
+
+section {
+    font-family: sans-serif;
+}
+
+section h2{
+    color:rgb(63, 63, 63);
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+section p{
+    color:rgb(63, 63, 63);
+    margin-top: 0px;
+}
+
+.column_image {  
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    overflow:hidden;
+}
+
+/* Định dạng phần Footer */
+footer { 
+    background-color: rgb(250, 249, 249);
+    height: 200px;
+    padding-left: 50px;
+}
+
+.column_footer {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 68%;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+footer a:visited {
+        color: rgb(27, 190, 231);
+}
